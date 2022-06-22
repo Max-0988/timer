@@ -1,0 +1,112 @@
+* {
+  font-family: 'Azeret Mono', monospace;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.timer__block {
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.timer__block .time {
+  background-color: #2987be;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 95px;
+  height: 150px;
+  color: #fff;
+}
+
+.timer__block .title {
+  background-color: #1059b8;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.buttons .btn {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  width: 180px;
+  cursor: pointer;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.buttons .btn.start {
+  color: #2987be;
+}
+
+.buttons .btn.start:hover {
+  background-color: #1059b8;
+  color: #fff;
+}
+
+.buttons .btn.stop {
+  color: #2987be;
+}
+
+.buttons .btn.stop:hover {
+  background-color: #FF5733;
+  color: #000;
+}
+
+.buttons .btn.wait:hover {
+  background-color: #E03B8B;
+  color: #fff;
+}
+
+.buttons .btn.reset:hover {
+  background-color: #33ACFF;
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */
